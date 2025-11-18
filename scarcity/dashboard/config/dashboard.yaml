@@ -1,0 +1,8 @@
+---
+# Placeholder dashboard configuration; values will be extended as implementation progresses.
+allowed_origins:
+  - "http://localhost:3000"
+  - "https://localhost:3000"
+model_path: "artifacts/meta"
+
+
