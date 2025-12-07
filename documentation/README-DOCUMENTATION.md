@@ -2,7 +2,7 @@
 
 Welcome to the complete documentation for the SCARCITY system!
 
-## 📚 Documentation Overview
+## Documentation Overview
 
 This folder contains comprehensive documentation for the entire SCARCITY system, covering all components from the core library to the frontend UI.
 
@@ -29,7 +29,7 @@ This folder contains comprehensive documentation for the entire SCARCITY system,
 
 ---
 
-## 🎯 What You'll Find Here
+## What You'll Find Here
 
 ### 1. System Overview
 - Architecture diagrams
@@ -68,7 +68,7 @@ This folder contains comprehensive documentation for the entire SCARCITY system,
 
 ---
 
-## 🚀 Quick Start Paths
+## Quick Start Paths
 
 ### For New Users
 1. Read [COMPLETE-SYSTEM-SUMMARY.md](COMPLETE-SYSTEM-SUMMARY.md)
@@ -87,40 +87,40 @@ This folder contains comprehensive documentation for the entire SCARCITY system,
 
 ---
 
-## 📖 Documentation Structure
+## Documentation Structure
 
 ```
 documentation/
-├── 00-INDEX.md                              # Master index
-├── COMPLETE-SYSTEM-SUMMARY.md               # Executive summary
-├── SCARCITY-CORE-COMPLETE-REFERENCE.md      # Core library reference
-├── COMPREHENSIVE_DOCUMENTATION.md           # Full system docs
-├── DOCUMENTATION_INDEX.md                   # Documentation index
-├── README.md                                # Quick start
-├── README-DOCUMENTATION.md                  # This file
-└── docs/                                    # Detailed docs
-    ├── 01-product-overview.md
-    ├── 02-architecture.md
-    ├── 03-mathematical-foundations.md
-    ├── 04-core-algorithms.md
-    ├── 05-backend-implementation.md
-    ├── README.md
-    ├── SCARCITY-CORE-LIBRARY.md
-    └── scarcity-core/
-        ├── 00-INDEX.md
-        ├── 01-runtime.md
-        ├── 02-engine.md
-        ├── 03-governor.md
-        ├── 04-meta-learning.md
-        ├── 05-federation.md
-        ├── 06-simulation.md
-        ├── 07-stream.md
-        └── 08-fmi.md
+00-INDEX.md # Master index
+COMPLETE-SYSTEM-SUMMARY.md # Executive summary
+SCARCITY-CORE-COMPLETE-REFERENCE.md # Core library reference
+COMPREHENSIVE_DOCUMENTATION.md # Full system docs
+DOCUMENTATION_INDEX.md # Documentation index
+README.md # Quick start
+README-DOCUMENTATION.md # This file
+docs/ # Detailed docs
+01-product-overview.md
+02-architecture.md
+03-mathematical-foundations.md
+04-core-algorithms.md
+05-backend-implementation.md
+README.md
+SCARCITY-CORE-LIBRARY.md
+scarcity-core/
+00-INDEX.md
+01-runtime.md
+02-engine.md
+03-governor.md
+04-meta-learning.md
+05-federation.md
+06-simulation.md
+07-stream.md
+08-fmi.md
 ```
 
 ---
 
-## 🔍 Finding What You Need
+## Finding What You Need
 
 ### By Component
 - **Runtime Bus**: See [SCARCITY-CORE-COMPLETE-REFERENCE.md](SCARCITY-CORE-COMPLETE-REFERENCE.md) § Runtime Bus
@@ -148,7 +148,7 @@ documentation/
 
 ---
 
-## 📊 System Statistics
+## System Statistics
 
 - **Total Lines of Code**: 15,000+
 - **Core Modules**: 9
@@ -159,7 +159,7 @@ documentation/
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Core Library
 - Python 3.11+
@@ -180,7 +180,7 @@ documentation/
 
 ---
 
-## 💡 Key Features
+## Key Features
 
 1. **Multi-Path Causal Discovery** with bandit optimization
 2. **Adaptive Resource Management** with Kalman filtering
@@ -193,21 +193,21 @@ documentation/
 
 ---
 
-## 📝 Documentation Quality
+## Documentation Quality
 
 All documentation includes:
-- ✅ High-level overviews
-- ✅ Detailed technical specifications
-- ✅ Code examples
-- ✅ Mathematical formulas
-- ✅ Configuration options
-- ✅ Usage patterns
-- ✅ Performance characteristics
-- ✅ API references
+- High-level overviews
+- Detailed technical specifications
+- Code examples
+- Mathematical formulas
+- Configuration options
+- Usage patterns
+- Performance characteristics
+- API references
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 To contribute to documentation:
 1. Follow the existing structure
@@ -218,7 +218,7 @@ To contribute to documentation:
 
 ---
 
-## 📞 Support
+## Support
 
 - **Questions**: See specific component documentation
 - **Issues**: GitHub Issues
@@ -227,7 +227,7 @@ To contribute to documentation:
 
 ---
 
-## 🎓 Learning Path
+## Learning Path
 
 ### Beginner
 1. [COMPLETE-SYSTEM-SUMMARY.md](COMPLETE-SYSTEM-SUMMARY.md) - Overview
@@ -246,7 +246,7 @@ To contribute to documentation:
 
 ---
 
-## 🔄 Version History
+## Version History
 
 **1.0.0** (December 2025)
 - Complete system documentation
@@ -257,7 +257,7 @@ To contribute to documentation:
 
 ---
 
-## ✨ What Makes This Documentation Special
+## What Makes This Documentation Special
 
 1. **Comprehensive**: Covers every component in detail
 2. **Practical**: Includes real code examples

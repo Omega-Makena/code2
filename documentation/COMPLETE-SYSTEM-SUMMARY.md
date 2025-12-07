@@ -1,7 +1,7 @@
 # SCARCITY - Complete System Documentation Summary
 
-**Version**: 1.0.0  
-**Date**: December 3, 2025  
+**Version**: 1.0.0 
+**Date**: December 3, 2025 
 **Status**: Production Ready
 
 ---
@@ -17,28 +17,28 @@ SCARCITY is a comprehensive machine learning system for causal discovery, adapti
 ### High-Level Overview
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                     SCARCITY SYSTEM                          │
-├─────────────────────────────────────────────────────────────┤
-│                                                              │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐     │
-│  │   Frontend   │  │   Backend    │  │  Core Library │     │
-│  │  (React/TS)  │◄─┤  (FastAPI)   │◄─┤   (Python)    │     │
-│  └──────────────┘  └──────────────┘  └──────────────┘     │
-│                                                              │
-│  Core Library Components:                                   │
-│  ┌────────────────────────────────────────────────────┐    │
-│  │ 1. Runtime Bus (Event-driven communication)        │    │
-│  │ 2. MPIE Engine (Causal discovery + ML)             │    │
-│  │ 3. DRG (Dynamic Resource Governor)                 │    │
-│  │ 4. Meta-Learning (5-tier hierarchy)                │    │
-│  │ 5. Federation (Privacy-preserving learning)        │    │
-│  │ 6. Simulation (3D visualization)                   │    │
-│  │ 7. Stream Processing (Data ingestion)              │    │
-│  │ 8. FMI (Federated Model Interface)                 │    │
-│  └────────────────────────────────────────────────────┘    │
-│                                                              │
-└─────────────────────────────────────────────────────────────┘
+
+SCARCITY SYSTEM 
+
+
+
+Frontend Backend Core Library 
+(React/TS) (FastAPI) (Python) 
+
+
+Core Library Components: 
+
+1. Runtime Bus (Event-driven communication) 
+2. MPIE Engine (Causal discovery + ML) 
+3. DRG (Dynamic Resource Governor) 
+4. Meta-Learning (5-tier hierarchy) 
+5. Federation (Privacy-preserving learning) 
+6. Simulation (3D visualization) 
+7. Stream Processing (Data ingestion) 
+8. FMI (Federated Model Interface) 
+
+
+
 ```
 
 ---

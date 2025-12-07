@@ -6,7 +6,7 @@ An advanced machine learning framework for online, resource-constrained environm
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.11+
@@ -17,7 +17,7 @@ An advanced machine learning framework for online, resource-constrained environm
 ```bash
 cd backend
 python -m venv .venv
-.venv\Scripts\activate  # Windows
+.venv\Scripts\activate # Windows
 pip install -r requirements.txt
 uvicorn app.main:app --reload --port 8000
 ```
@@ -36,7 +36,7 @@ npm run dev
 
 ---
 
-## 📚 Complete Documentation
+## Complete Documentation
 
 **[→ View Complete Documentation Index](./DOCUMENTATION_INDEX.md)**
 
@@ -49,33 +49,33 @@ npm run dev
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 🔍 Multi-Path Inference Engine (MPIE)
+### Multi-Path Inference Engine (MPIE)
 Discover causal relationships from streaming data automatically
 - Real-time causal graph discovery
 - Statistical validation with bootstrap resampling
 - Hypergraph representation
 
-### ⚡ Dynamic Resource Governor (DRG)
+### Dynamic Resource Governor (DRG)
 Adapt to resource constraints dynamically
 - Real-time CPU/memory/GPU monitoring
 - PID-based control policies
 - Predictive resource forecasting
 
-### 🌐 Federation Layer
+### Federation Layer
 Enable decentralized learning across organizations
 - Peer-to-peer model sharing
 - Multiple aggregation strategies (FedAvg, Weighted, Adaptive)
 - Differential privacy protection
 
-### 🧠 Meta-Learning Agent
+### Meta-Learning Agent
 Transfer knowledge across domains and tasks
 - Cross-domain optimization
 - Prior knowledge extraction
 - Adaptive hyperparameter tuning
 
-### 🎨 3D Simulation Engine
+### 3D Simulation Engine
 Visualize and explore causal hypergraphs
 - Interactive 3D visualization
 - Force-directed graph layout
@@ -83,65 +83,65 @@ Visualize and explore causal hypergraphs
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                     Frontend (React)                         │
-│  Dashboard | Engine | Federation | Domains | Visualization  │
-└────────────────────────┬────────────────────────────────────┘
-                         │ REST API
-┌────────────────────────┴────────────────────────────────────┐
-│                  Backend (FastAPI)                           │
-│  API Layer | ScarcityCoreManager | Domain Manager           │
-└────────────────────────┬────────────────────────────────────┘
-                         │ Event Bus
-┌────────────────────────┴────────────────────────────────────┐
-│              Scarcity Core Components                        │
-│  Runtime Bus | MPIE | DRG | Federation | Meta | Simulation  │
-└─────────────────────────────────────────────────────────────┘
+
+Frontend (React) 
+Dashboard | Engine | Federation | Domains | Visualization 
+
+REST API
+
+Backend (FastAPI) 
+API Layer | ScarcityCoreManager | Domain Manager 
+
+Event Bus
+
+Scarcity Core Components 
+Runtime Bus | MPIE | DRG | Federation | Meta | Simulation 
+
 ```
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 scace4/
-├── backend/                 # Python FastAPI backend
-│   ├── app/
-│   │   ├── api/v2/         # REST API endpoints
-│   │   ├── core/           # Business logic
-│   │   └── main.py         # FastAPI app
-│   ├── scripts/            # Utility scripts
-│   └── tests/              # Test files
-│
-├── scarcity/               # Core ML library
-│   ├── runtime/            # Event bus
-│   ├── engine/             # MPIE orchestrator
-│   ├── governor/           # DRG
-│   ├── federation/         # Federation layer
-│   ├── meta/               # Meta-learning
-│   └── simulation/         # 3D simulation
-│
-├── scarcity-deep-dive/     # React frontend
-│   ├── src/
-│   │   ├── pages/          # Page components
-│   │   ├── components/     # Reusable components
-│   │   └── lib/            # API client
-│   └── package.json
-│
-└── docs/                   # Comprehensive documentation
-    ├── 01-product-overview.md
-    ├── 02-architecture.md
-    ├── 03-mathematical-foundations.md
-    ├── 04-core-algorithms.md
-    └── 05-backend-implementation.md
+backend/ # Python FastAPI backend
+app/
+api/v2/ # REST API endpoints
+core/ # Business logic
+main.py # FastAPI app
+scripts/ # Utility scripts
+tests/ # Test files
+
+scarcity/ # Core ML library
+runtime/ # Event bus
+engine/ # MPIE orchestrator
+governor/ # DRG
+federation/ # Federation layer
+meta/ # Meta-learning
+simulation/ # 3D simulation
+
+scarcity-deep-dive/ # React frontend
+src/
+pages/ # Page components
+components/ # Reusable components
+lib/ # API client
+package.json
+
+docs/ # Comprehensive documentation
+01-product-overview.md
+02-architecture.md
+03-mathematical-foundations.md
+04-core-algorithms.md
+05-backend-implementation.md
 ```
 
 ---
 
-## 🎯 Use Cases
+## Use Cases
 
 ### Healthcare
 Federated learning across hospitals without sharing patient data
@@ -157,7 +157,7 @@ Multi-domain learning for rapid adaptation to new markets
 
 ---
 
-## 🔬 Technology Stack
+## Technology Stack
 
 ### Backend
 - **Framework**: FastAPI 0.115.0
@@ -180,7 +180,7 @@ Multi-domain learning for rapid adaptation to new markets
 
 ---
 
-## 📊 Performance
+## Performance
 
 - **Data Ingestion**: 100-500 windows/second
 - **Causal Discovery**: 50-200 candidate paths/second
@@ -191,7 +191,7 @@ Multi-domain learning for rapid adaptation to new markets
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Backend tests
@@ -205,7 +205,7 @@ npm test
 
 ---
 
-## 📖 Documentation
+## Documentation
 
 ### For Developers
 1. [Architecture Guide](./docs/02-architecture.md)
@@ -224,7 +224,7 @@ npm test
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please see our [Development Guide](./docs/11-development-guide.md) for:
 - Code style and conventions
@@ -234,19 +234,19 @@ We welcome contributions! Please see our [Development Guide](./docs/11-developme
 
 ---
 
-## 📝 License
+## License
 
 [Add license information here]
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 Built with modern ML research and production best practices.
 
 ---
 
-## 📞 Support
+## Support
 
 - **Documentation**: [Complete Documentation Index](./DOCUMENTATION_INDEX.md)
 - **Troubleshooting**: [Troubleshooting Guide](./docs/12-troubleshooting.md)
@@ -254,6 +254,6 @@ Built with modern ML research and production best practices.
 
 ---
 
-**Version**: 2.0.0  
-**Status**: Production Ready  
+**Version**: 2.0.0 
+**Status**: Production Ready 
 **Last Updated**: December 3, 2025
